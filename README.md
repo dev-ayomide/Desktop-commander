@@ -1,26 +1,45 @@
 # DesktopCommander
 
-A powerful desktop automation tool that combines computer control with AI-powered text processing.
+A modern desktop automation tool combining computer control with smart clipboard management.
+![image](https://github.com/user-attachments/assets/74e4d537-aa96-4541-bae5-f105b1c8252b)
 
-![image](https://github.com/user-attachments/assets/c941ab3d-25a4-48fa-afdb-53f2b0b3e1f0)
 
+## Tech Stack
 
-## Features
+### Frontend
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: 
+  - shadcn/ui (Built on Radix UI)
+  - Lucide Icons
+  - Sonner (Toast notifications)
 
 ### Computer Control
-- Type text anywhere on your screen
-- Move mouse to specific coordinates
-- Click at current mouse position
-- Simple command interface
+- **Screenpipe**: For mouse/keyboard control and system automation
+- **API Integration**: REST API communication
 
-### Smart Clipboard
-- Automatic clipboard history
-- AI-powered text processing:
-  - Summarize long texts
-  - Translate to English
-  - Enhance writing
-- Persistent storage
-- Quick copy back to clipboard
+### State Management
+- React Hooks
+- Local Storage for persistence
+
+### Development Tools
+- **Package Manager**: npm/pnpm
+- **Development Server**: Next.js dev server
+- **Build Tool**: Next.js build system
+
+## Core Features
+
+1. **Computer Control**
+   - Mouse movement and clicks
+   - Text input automation
+   - Command-based interface
+
+2. **Smart Clipboard**
+   - Automatic clipboard monitoring
+   - History management
+   - Quick copy functionality
+   - Google Translate integration
 
 ## Getting Started
 
@@ -61,6 +80,7 @@ screenpipe serve
 
 - Node.js 18+
 - Screenpipe installed and running
+- Modern web browser
 - Nebius API key for AI features
 
 ## License
