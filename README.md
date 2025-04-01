@@ -1,6 +1,9 @@
-# DesktopPilot
+# DesktopCommander
 
 A powerful desktop automation tool that combines computer control with AI-powered text processing.
+
+![image](https://github.com/user-attachments/assets/c941ab3d-25a4-48fa-afdb-53f2b0b3e1f0)
+
 
 ## Features
 
